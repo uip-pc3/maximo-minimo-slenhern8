@@ -7,7 +7,7 @@ Revise el módulo maxmin.py [1] y documéntelo utilizando docstring (PEP 257). F
 No es necesario hacer pruebas unitarias sobre el código. Igualmente, si lo hace, tendrá puntos adicionales.
 
 Referencia:
-* https://github.com/adaptives/python-examples/blob/master/basic_examples/python_functions.py#L5
+* https://github.com/adaptives/python-examples/blob/master/basic_examples/python_functions.py
 
 ## Licencia
 El código de este repositorio está bajo la licencia MIT (ver archivo LICENSE) y la documentación, bajo la licencia Creative Commons (CC-BY-SA-3.0).
