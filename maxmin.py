@@ -1,7 +1,26 @@
+'''
+Este programa te permite comparar 2 numeros usando funciones y luego ver la cantidad de veces que cada funcion se llamo
+'''
+
 maxCalled = 0
 minCalled = 0
 
 def max_val(a,b):
+    '''
+    Esta funcion te dice cual es el numero mayor entre 2 que recibe
+    
+    
+    :param a: Primer numero a comparar
+    :type a: int
+    
+    :param b: Segundo numero a comparar
+    :type b: int
+    
+    :return: Regresa el valor mas grande de los 2
+    :rtype: int
+    
+    '''
+
     global maxCalled
     maxCalled = maxCalled + 1
   
@@ -13,6 +32,20 @@ def max_val(a,b):
         return a
 
 def min_val(a,b):
+    '''
+    Esta funcion te dice cual es el numero menor entre 2 que recibe
+    
+    
+    :param a: Primer numero a comparar
+    :type a: int
+    
+    :param b: Segundo numero a comparar
+    :type b: int
+    
+    :return: Regresa el valor mas pequeño de los 2
+    :rtype: int
+    
+    '''
     global minCalled 
     minCalled = minCalled + 1
   
@@ -24,8 +57,21 @@ def min_val(a,b):
         return a 
 
 def print_usage(init_msg, max_val=True, min_val=True):
+    '''
+    Esta funcion te dice la cantidad de veces que cada una de las funciones anteriores fue llamada
+    
+    :param init_msg: EL mensaje inicial a imprimir
+    :type init_msg: str
+    
+    :param max_val: Esta se usa para determinar si se va a imprimir el uso de la funcion max_val
+    :type max_val: bool
+    
+    :param min_val: Se usa para determinar si se va a imprimir el uso de la funcion min_val
+    :type min_val: bool
+   
+    '''
     global maxCalled, minCalled
-    print init_msg
+    print (init_msg)
     if max_val:
         print('functin max_val was called', maxCalled, ' times')
     if min_val:
