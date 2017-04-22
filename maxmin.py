@@ -8,7 +8,7 @@ minCalled = 0
 def max_val(a,b):
     '''
     Esta funcion te dice cual es el numero mayor entre 2 que recibe
-    
+        
     
     :param a: Primer numero a comparar
     :type a: int
